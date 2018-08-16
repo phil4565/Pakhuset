@@ -1,0 +1,15 @@
+﻿1 på 250 - 255 musik styring
+2 intesitet
+3 strobe
+4 rød 
+5 grøn
+6 blå
+7 rød
+8 grøn
+9 blå
+10 rød
+11 grøn
+12 blå
+13 rød
+14 grøn
+15 blå
