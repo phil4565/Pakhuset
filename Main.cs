@@ -297,7 +297,7 @@ namespace Enttec_Test
                         break;
                     }
                 }
-               
+
                 for (r = 255; r > 0; r--)
                 {
                     DMX.OpenDMX.setDmxValue(4, r);
@@ -310,7 +310,7 @@ namespace Enttec_Test
                         break;
                     }
                 }
-                
+
                 for (byte g = 255; g > 0; g--)
                 {
                     DMX.OpenDMX.setDmxValue(5, g);
@@ -323,7 +323,7 @@ namespace Enttec_Test
                         break;
                     }
                 }
-                
+
                 for (r = 0; r < 255; r++)
                 {
                     DMX.OpenDMX.setDmxValue(4, r);
@@ -335,7 +335,7 @@ namespace Enttec_Test
                     {
                         break;
                     }
-                } 
+                }
             }
         }
 
@@ -361,6 +361,12 @@ namespace Enttec_Test
                 DMX.OpenDMX.setDmxValue(2, 255);
                 BO = 0;
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Application.Exit();
         }
     }
 
